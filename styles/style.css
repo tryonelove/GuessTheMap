@@ -1,0 +1,8 @@
+.main-content{
+    display: flex;
+}
+
+#drawing-area{
+    width: 1016;
+    height: 711; 
+}
