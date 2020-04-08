@@ -1,8 +1,25 @@
-.main-content{
-    display: flex;
+html, body {
+    height: 100%;
 }
 
-#drawing-area{
-    width: 1016;
-    height: 711; 
+.row{
+    padding: 10px;
+}
+
+
+#drawingArea{
+    border-radius: 5px;
+}
+
+.main-content{
+    height: 100%;
+    /* max-height: 711px; */
+}
+
+.chat{
+    background-color: red;
+    height: 100%;
+    max-height: 711px;
+    border-radius: 5px;
+    overflow-y: auto;
 }

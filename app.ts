@@ -11,7 +11,6 @@ class Drawing{
         context.lineWidth = 2;
         context.lineCap = "round";
         context.lineJoin = "round";
-
         this.canvas = canvas;
         this.context = context;
         this.hold = false;
@@ -49,7 +48,6 @@ class Drawing{
         this.context.beginPath();
     }
 
-
     private setHandlers(){
         let canvas = this.canvas;
         canvas.addEventListener("mousemove", this.mouseMoveHandler);
@@ -57,6 +55,10 @@ class Drawing{
         canvas.addEventListener("mouseup", this.mouseUpHandler);
         canvas.addEventListener("mouseout", this.mouseUpHandler); 
     }
+
+    public getCtx(){
+        return this.context;
+    }
 }
 
-new Drawing();
+let drawing = new Drawing();
