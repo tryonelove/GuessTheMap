@@ -6,12 +6,7 @@ body{
     background-color: #E0E0E0;
 }
 
-.row{
-    padding: 10px;
-}
-
-
-#drawingArea{
+#drawing-canvas{
     border-radius: 5px;
     background-color: #ffffff;
 }
@@ -20,7 +15,7 @@ body{
     height: 100%;
 }
 
-.chat-area{
+.chat{
     background-color: #C4C4C4;
     height: 100%;
     max-height: 711px;
@@ -35,18 +30,74 @@ body{
     padding: 10px;
 }
 
-.chat-buttons{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
 .chatters{
     height: 640px;
     max-height: 640px;
     overflow-y: auto;
 }
 
+.chat-buttons{
+    padding-top: 10px;
+}
+
+.form-control{
+    width: 75%;
+}
+
 .send-btn{
     margin-left: 10px;
 }
 
+.toolbox{
+    padding: 8px;
+    border-radius: 5px;
+    height: 71px;
+    background-color: #C4C4C4;
+}
+
+.color{
+    border-radius: 5px;
+    width: 55px;
+    height: 55px;
+    margin-right: 8px;
+}
+
+.black{
+    background-color: #000000;
+}
+
+.white{
+    background-color: #ffffff;
+}
+
+.red{
+    background-color: #ff0000;
+}
+
+.orange{
+    background-color: #FF6400;
+}
+
+.yellow{
+    background-color: #FFFF00;
+}
+
+.green{
+    background-color: #009500;
+}
+
+.light-blue{
+    background-color: #00A3FF;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.purple{
+   background-color: #6400FF; 
+}
+
+.custom-color{
+    border: 1px solid black;
+}
